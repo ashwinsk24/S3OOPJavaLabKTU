@@ -9,7 +9,7 @@ class RandomNumThread extends Thread
       int i;
       for(i=0;i<10;i++)
         {
-           int rndmno = random.nextInt(100);
+           int rndmno = random.nextInt(30);
            System.out.println(" Random No: "+ rndmno);
            if( rndmno%2 == 0)
              {
@@ -21,6 +21,12 @@ class RandomNumThread extends Thread
               Cubenum cbT = new Cubenum(rndmno);
               cbT.start();
             }
+            try{
+             Thread.sleep(1000);
+            }
+            catch(Exception e){
+            System.out.println(e);
+           }
           
         }
       } 
