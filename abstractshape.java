@@ -23,8 +23,8 @@ abstract class Shape
 
  void numberofSides()
   {
-    int n = nos;
-    System.out.println(" Number of sides of Rectangle=" + n);
+    
+    System.out.println(" Number of sides of Rectangle=" + nos);
   
   }
 }
@@ -38,8 +38,7 @@ abstract class Shape
 
  void numberofSides()
   {
-    int n = nos;
-    System.out.println(" Number of sides of Triangle=" + n);
+    System.out.println(" Number of sides of Triangle=" + nos);
   
   }
  }
@@ -53,8 +52,8 @@ abstract class Shape
 
  void numberofSides()
   {
-    int n = nos;
-    System.out.println(" Number of sides of Hexagon=" + n);
+   
+    System.out.println(" Number of sides of Hexagon=" + nos);
   
   }
  }

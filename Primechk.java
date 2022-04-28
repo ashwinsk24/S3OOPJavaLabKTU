@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class PrimeMain
+class Primechk
 
 {
   public static void main(String [] args)

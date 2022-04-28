@@ -21,11 +21,11 @@ class ToTestInt
 {
   public static void main(String args[])
   {
-    arithmetic A = new arithmetic();
+    Test T = new arithmetic();
     Scanner ob = new Scanner(System.in);
     System.out.println(" Enter the no. to be Squared: "); 
     int n = ob.nextInt();
-    A.square(n);   
+    T.square(n);   
   }
 } 
   

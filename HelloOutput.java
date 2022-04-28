@@ -9,5 +9,6 @@ class HelloOutput
     Scanner ob = new Scanner(System.in);
     String S = ob.nextLine();
     System.out.println("Hello "+ S);
+    ob.close();
    }
 }

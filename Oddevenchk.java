@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Oddeven
+class Oddevenchk
 { 
   public static void main(String[] args)
   {

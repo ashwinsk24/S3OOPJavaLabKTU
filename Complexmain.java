@@ -19,8 +19,8 @@ class Complex
   { 
     real=0;
     img=0;
-    real = this.real+b.real;
-    img  = this.img+b.img;
+    real = this.real-b.real;
+    img  = this.img-b.img;
    System.out.println("Difference is Real: "+ real +"  Imaginary: "+img);
    }
 

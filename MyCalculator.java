@@ -44,9 +44,7 @@ class MyCalculator
 }   
 
 /*
-D:\Ashwin9136>javac MyCalculator.java
 
-D:\Ashwin9136>java MyCalculator
 *** Calculator ***
  Enter two numbers
 10 5
@@ -90,8 +88,6 @@ D:\Ashwin9136>java MyCalculator
 5.Exit choice:
 5
  Exited Succesfully.
-
-D:\Ashwin9136>
 
 */ 
 
